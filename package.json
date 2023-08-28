@@ -50,7 +50,6 @@
     "*.js.map",
     "LICENSE",
     "README.md",
-    "tsconfig.json",
     "recommended-gitignore.txt",
     "console.sol"
   ],
