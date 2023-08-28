@@ -44,7 +44,7 @@
     "src/",
     "types/",
     "utils/",
-    "localdependencies/",
+    "localdependencies",
     "*.d.ts",
     "*.d.ts.map",
     "*.js",
