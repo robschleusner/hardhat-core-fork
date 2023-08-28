@@ -20,7 +20,7 @@
     "solidity"
   ],
   "bin": {
-    "hardhat": "internal/cli/bootstrap.js"
+    "hardhat": "./bin/hardhat"
   },
   "scripts": {
     "lint": "yarn prettier --check && yarn eslint",
