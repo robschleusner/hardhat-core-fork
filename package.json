@@ -50,9 +50,9 @@
     "*.js.map",
     "LICENSE",
     "README.md",
+    "tsconfig.json",
     "recommended-gitignore.txt",
-    "console.sol",
-    "tsconfig.json"
+    "console.sol"
   ],
   "devDependencies": {
     "@types/async-eventemitter": "^0.2.1",
