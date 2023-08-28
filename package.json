@@ -1,5 +1,5 @@
 {
-  "name": "hardhat",
+  "name": "quai-hardhat",
   "version": "2.17.1",
   "author": "Nomic Labs LLC",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "repository": "github:nomiclabs/hardhat",
   "main": "internal/lib/hardhat-lib.js",
   "types": "internal/lib/hardhat-lib.d.ts",
-  "description": "Hardhat is an extensible developer tool that helps smart contract developers increase productivity by reliably bringing together the tools they want.",
+  "description": "Hardhat is an extensible developer tool that helps smart contract developers increase productivity by reliably bringing together the tools they want. This is a fork of Hardhat that uses Solidity X",
   "keywords": [
     "ethereum",
     "smart-contracts",
