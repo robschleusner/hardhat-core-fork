@@ -274,9 +274,7 @@ export class CompilerDownloader implements ICompilerDownloader {
 
   private async _downloadCompilerList(): Promise<void> {
     log(`Downloading compiler list for platform ${this._platform}`);
-    //const url = `${COMPILER_REPOSITORY_URL}/${this._platform}/list.json`;
-    const url = 'https://github.com/dominant-strategies/SolidityX/releases/download/0.0.1/solc';
-    console.log(`Downloading Solidity X from ${url}`);
+    const url = `${COMPILER_REPOSITORY_URL}/${this._platform}/list.json`;
     const downloadPath = this._getCompilerListPath();
 
     await this._downloadFunction(url, downloadPath);
@@ -284,7 +282,9 @@ export class CompilerDownloader implements ICompilerDownloader {
 
   private async _downloadCompiler(build: CompilerBuild): Promise<string> {
     log(`Downloading compiler ${build.longVersion}`);
-    const url = `${COMPILER_REPOSITORY_URL}/${this._platform}/${build.path}`;
+    //const url = `${COMPILER_REPOSITORY_URL}/${this._platform}/${build.path}`;
+    const url = 'https://github.com/dominant-strategies/SolidityX/releases/download/0.0.1/solc';
+    console.log(`Downloading Solidity X from ${url}`);
     const downloadPath = this._getCompilerDownloadPathFromBuild(build);
 
     await this._downloadFunction(url, downloadPath);
